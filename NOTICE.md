@@ -4,7 +4,7 @@
 
 Copyright (C) 2026 swami086 and Anvil Platform contributors.
 
-Anvil Platform (`github.com/anvil/platform`) is **original software** developed through an independent clean-room engineering process.
+Anvil Platform (`github.com/swami086/platform`) is **original software** developed through an independent clean-room engineering process.
 
 ## What This Project Is
 

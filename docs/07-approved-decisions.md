@@ -3,7 +3,7 @@
 | Decision | Status | Value |
 |----------|--------|-------|
 | Project codename | **Approved** | `anvil` |
-| Go module path | **Approved** | `github.com/anvil/platform` |
+| Go module path | **Approved** | `github.com/swami086/platform` |
 | GitHub repository | **Created** | https://github.com/swami086/platform |
 | License | **Approved** | GNU AGPL v3.0 (original work, see NOTICE.md) |
 | Derivative status | **Approved** | New source code is **not** labeled derivative of Coder_OSS |
@@ -11,14 +11,12 @@
 | Enterprise scope | **Approved** | Full parity included |
 | Wave 0 start | **Deferred** | Do not begin until explicitly requested |
 
-## GitHub Module Path Note
+## Module and Repository
 
-The Go module is `github.com/anvil/platform`. The repository is hosted at `https://github.com/swami086/platform` until an `anvil` GitHub organization is created. After org creation, either:
+Go module path and GitHub remote are aligned:
 
-1. Transfer the repository to `anvil/platform`, or
-2. Create `anvil/platform` and update the remote
-
-Then add the `go-import` meta tag if the module path and hosting URL differ during transition.
+- Module: `github.com/swami086/platform`
+- Remote: https://github.com/swami086/platform
 
 ## Next Action When Ready
 

@@ -8,7 +8,7 @@
 | Component | Source | Decision | Cleanroom | Notes |
 |-----------|--------|----------|-----------|-------|
 | Go version | 1.26.4 | **Retain** | 1.26.4+ | Match upstream |
-| Module path | `github.com/coder/coder/v2` | **Replace** | `github.com/anvil/platform` | New module |
+| Module path | `github.com/coder/coder/v2` | **Replace** | `github.com/swami086/platform` | New module |
 | Build | Makefile | **Rewrite** | Makefile | Same targets, new paths |
 | Lint | golangci-lint | **Retain** | Same config adapted | |
 | SQLC | sqlc | **Retain** | Same version | New query names |

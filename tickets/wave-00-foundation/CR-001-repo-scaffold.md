@@ -35,7 +35,7 @@ LIMIT 10;
 ## go.mod Content
 
 ```go
-module github.com/anvil/platform
+module github.com/swami086/platform
 
 go 1.26.4
 ```
@@ -65,7 +65,7 @@ src/
 
 - [ ] `go mod tidy` succeeds in `src/`
 - [ ] All package directories exist with `doc.go`
-- [ ] Module path is `github.com/anvil/platform`
+- [ ] Module path is `github.com/swami086/platform`
 - [ ] No imports from `github.com/coder/coder/v2`
 
 ## Verification

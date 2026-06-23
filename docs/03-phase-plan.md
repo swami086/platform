@@ -51,7 +51,7 @@ graph TD
 **Exit criteria:**
 
 - `make build` produces `anvil` binary (stub)
-- `go.mod` at `github.com/anvil/platform`
+- `go.mod` at `github.com/swami086/platform`
 - Torbit indexes `cleanroom-platform/src/`
 - CI workflow skeleton passes
 

@@ -5,7 +5,7 @@
 | Item | Value |
 |------|-------|
 | Codename | `anvil` |
-| Module | `github.com/anvil/platform` |
+| Module | `github.com/swami086/platform` |
 | GitHub | https://github.com/swami086/platform |
 | License | GNU AGPL v3.0 — original work ([NOTICE.md](../NOTICE.md)) |
 | Derivative labeling | **Prohibited** — do not describe Anvil as derivative of Coder_OSS |

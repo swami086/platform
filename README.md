@@ -2,7 +2,7 @@
 
 > **Status:** PLANNING — Wave 0 deferred. Repository and license initialized.
 
-Anvil Platform (`github.com/anvil/platform`) is an independent clean-room implementation of a remote development environment control plane.
+Anvil Platform (`github.com/swami086/platform`) is an independent clean-room implementation of a remote development environment control plane.
 
 **Repository:** https://github.com/swami086/platform
 
@@ -11,7 +11,7 @@ Anvil Platform (`github.com/anvil/platform`) is an independent clean-room implem
 | Item | Decision |
 |------|----------|
 | Codename | `anvil` |
-| Go module | `github.com/anvil/platform` |
+| Go module | `github.com/swami086/platform` |
 | License | GNU AGPL v3.0 ([LICENSE](LICENSE), [NOTICE.md](NOTICE.md)) |
 | Legal posture | Original work; **not** labeled derivative of Coder_OSS |
 | API compatibility | External REST/gRPC contracts unchanged; internals fully rewritten |
