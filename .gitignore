@@ -28,3 +28,6 @@ tickets/**/VERIFICATION-*.md.tmp
 # Local env
 .env
 .env.*
+
+# OpenMemory - IDE/Assistant specific rules
+.cursor/rules/openmemory.mdc
