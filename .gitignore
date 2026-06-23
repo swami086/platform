@@ -1,0 +1,26 @@
+# Build artifacts (Wave 0+)
+src/build/
+src/dist/
+
+# Go
+src/bin/
+*.exe
+*.test
+*.out
+
+# Node (Wave 10+)
+src/console/node_modules/
+src/console/dist/
+src/console/.vite/
+
+# IDE
+.idea/
+*.swp
+.DS_Store
+
+# Verification artifacts
+tickets/**/VERIFICATION-*.md.tmp
+
+# Local env
+.env
+.env.*
