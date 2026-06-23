@@ -1,7 +1,8 @@
 {
   "version": 1,
   "source_repo": "/Users/swami/Documents/Coder_OSS",
-  "target_repo": "/Users/swami/Documents/Coder_OSS/cleanroom-platform/src",
+  "target_repo": "https://github.com/swami086/platform",
+  "target_root": "src/",
   "mappings": [
     {"source": "coderd/database/dbauthz/", "target": "persistence/accessgate/", "wave": 2},
     {"source": "coderd/database/", "target": "persistence/", "wave": 2},
