@@ -1,0 +1,54 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "src/**"
+      - ".github/workflows/ci.yaml"
+  pull_request:
+    branches: [main]
+    paths:
+      - "src/**"
+      - ".github/workflows/ci.yaml"
+
+permissions:
+  contents: read
+
+jobs:
+  go:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: src
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.26.4"
+          cache-dependency-path: src/go.sum
+
+      - name: Verify formatting
+        run: make fmt-check
+
+      - name: Install golangci-lint
+        uses: golangci/golangci-lint-action@v6
+        with:
+          version: v1.64.8
+          working-directory: src
+          args: --config .golangci.yaml
+
+      - name: Test
+        run: make test
+
+      - name: Build
+        run: make build
+
+      - name: Verify module path
+        run: |
+          grep -q 'module github.com/swami086/platform' go.mod
+          ! grep -r 'github.com/coder/coder' --include='*.go' .

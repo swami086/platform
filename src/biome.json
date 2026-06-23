@@ -1,0 +1,18 @@
+{
+  "$schema": "https://biomejs.dev/schemas/1.9.0/schema.json",
+  "vcs": {
+    "enabled": true,
+    "clientKind": "git"
+  },
+  "files": {
+    "ignore": ["build", "node_modules"]
+  },
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "tab"
+  },
+  "linter": {
+    "enabled": true
+  },
+  "_comment": "Full console/ frontend lint config lands in Wave 10 (CR-1001)."
+}

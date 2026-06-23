@@ -9,7 +9,7 @@
 | Derivative status | **Approved** | New source code is **not** labeled derivative of Coder_OSS |
 | API compatibility | **Approved** | External REST/gRPC contracts unchanged; internals fully rewritten |
 | Enterprise scope | **Approved** | Full parity included |
-| Wave 0 start | **Deferred** | Do not begin until explicitly requested |
+| Wave 0 | **Complete** | CR-001 through CR-008 verified |
 
 ## Module and Repository
 
@@ -18,6 +18,18 @@ Go module path and GitHub remote are aligned:
 - Module: `github.com/swami086/platform`
 - Remote: https://github.com/swami086/platform
 
-## Next Action When Ready
+## Wave 0 Exit Criteria (Gate G1)
 
-Reply **start wave 0** to begin CR-001 through CR-008 implementation.
+| Check | Status |
+|-------|--------|
+| `make build` produces `build/anvil` | PASS |
+| `make test` | PASS |
+| `make lint` (golangci-lint v1.64.8) | PASS |
+| Stub server `/healthz` | PASS |
+| Swagger baseline (268 paths) | PASS |
+| Torbit index cleanroom-platform | PASS |
+| Dissimilarity scaffold | PASS |
+
+## Next Action
+
+Reply **start wave 1** to begin shared libraries (CR-101 through CR-112).

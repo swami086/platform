@@ -1,6 +1,6 @@
 # Anvil Platform
 
-> **Status:** PLANNING — Wave 0 deferred. Repository and license initialized.
+> **Status:** Wave 0 complete — ready for Wave 1 (shared libraries).
 
 Anvil Platform (`github.com/swami086/platform`) is an independent clean-room implementation of a remote development environment control plane.
 
@@ -16,7 +16,7 @@ Anvil Platform (`github.com/swami086/platform`) is an independent clean-room imp
 | Legal posture | Original work; **not** labeled derivative of Coder_OSS |
 | API compatibility | External REST/gRPC contracts unchanged; internals fully rewritten |
 | Enterprise | Full parity included |
-| Wave 0 | **Not started** — awaiting explicit go-ahead |
+| Wave 0 start | **Complete** | CR-001 through CR-008 |
 
 ## Planning Documents
 
@@ -46,4 +46,4 @@ Planning and contracts live at the repository root. Implementation code lands un
 
 ## Start Implementation
 
-When ready, reply **start wave 0** to execute CR-001 through CR-008.
+Wave 0 is complete. Reply **start wave 1** to execute CR-101 through CR-112 (shared libraries).

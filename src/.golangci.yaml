@@ -1,0 +1,26 @@
+run:
+  timeout: 5m
+  tests: true
+
+linters:
+  enable:
+    - errcheck
+    - govet
+    - ineffassign
+    - staticcheck
+    - unused
+    - gofmt
+    - goimports
+    - misspell
+
+linters-settings:
+  misspell:
+    locale: US
+
+issues:
+  exclude-use-default: false
+  max-issues-per-linter: 0
+  max-same-issues: 0
+
+# Prose rule for future waves: do not use Unicode em dash (U+2014) or en dash
+# (U+2013) in Go string literals or comments. Use commas or periods instead.

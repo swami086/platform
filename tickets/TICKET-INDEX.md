@@ -6,7 +6,7 @@
 
 | Wave | Tickets | Status |
 |------|--------:|--------|
-| 0 Foundation | 8 | planned |
+| 0 Foundation | 8 | verified |
 | 1 Shared Libs | 12 | planned |
 | 2 Database | 18 | planned |
 | 3 Control Plane Core | 22 | planned |
