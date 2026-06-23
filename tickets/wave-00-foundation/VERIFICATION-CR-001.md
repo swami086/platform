@@ -4,7 +4,7 @@
 CR-001: Repository scaffold and go.mod
 
 ## Torbit Index
-- Path: `/Users/swami/Documents/Coder_OSS/cleanroom-platform`
+- Path: `/Users/swami/Documents/platform`
 - Go files under `src/`: 13 (doc.go packages)
 - `go mod verify`: PASS
 

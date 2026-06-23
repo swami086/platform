@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Re-index cleanroom-platform after each ticket (Torbit MCP index tool).
+# Re-index Anvil Platform after each ticket (Torbit MCP index tool).
 set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"

@@ -16,7 +16,7 @@
 Each dispatched subagent receives:
 
 ```
-Full Repository Path: /Users/swami/Documents/Coder_OSS/cleanroom-platform/src
+Full Repository Path: /Users/swami/Documents/platform/src
 Ticket: CR-XXX
 Wave: N
 Source scope (read-only): <torbit file list>
@@ -51,7 +51,7 @@ Plan approved
 
 | Event | Action |
 |-------|--------|
-| Wave 0 complete | Initial index of `cleanroom-platform/src/` |
+| Wave 0 complete | Initial index of `/Users/swami/Documents/platform` |
 | Every 4 tickets | Re-index |
 | Every wave boundary | Full re-index + manifest snapshot |
 | Wave 13 | Final index + parity report |
@@ -60,7 +60,7 @@ Plan approved
 -- Track indexing status
 SELECT repo_path, status, last_indexed_at, commit_sha
 FROM _orbit_manifest
-WHERE repo_path LIKE '%cleanroom-platform%';
+WHERE repo_path LIKE '%/platform%';
 ```
 
 ## Engineering Skills per Wave

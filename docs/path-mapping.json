@@ -1,6 +1,7 @@
 {
   "version": 1,
   "source_repo": "/Users/swami/Documents/Coder_OSS",
+  "platform_root": "/Users/swami/Documents/platform",
   "target_repo": "https://github.com/swami086/platform",
   "target_root": "src/",
   "mappings": [

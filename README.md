@@ -6,6 +6,8 @@ Anvil Platform (`github.com/swami086/platform`) is an independent clean-room imp
 
 **Repository:** https://github.com/swami086/platform
 
+**Disk location:** `/Users/swami/Documents/platform` (sibling to Coder_OSS, not nested inside it)
+
 ## Approved Scope (2026-06-23)
 
 | Item | Decision |
@@ -22,6 +24,7 @@ Anvil Platform (`github.com/swami086/platform`) is an independent clean-room imp
 
 | Document | Description |
 |----------|-------------|
+| [docs/08-filesystem-separation.md](docs/08-filesystem-separation.md) | Strict disk and git isolation from Coder_OSS |
 | [docs/07-approved-decisions.md](docs/07-approved-decisions.md) | Locked decisions and GitHub notes |
 | [docs/00-charter.md](docs/00-charter.md) | Goals, constraints, success criteria |
 | [docs/01-architecture-inventory.md](docs/01-architecture-inventory.md) | Torbit-derived subsystem map |

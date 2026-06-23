@@ -9,14 +9,17 @@
 | Derivative status | **Approved** | New source code is **not** labeled derivative of Coder_OSS |
 | API compatibility | **Approved** | External REST/gRPC contracts unchanged; internals fully rewritten |
 | Enterprise scope | **Approved** | Full parity included |
+| Filesystem separation | **Approved** | `/Users/swami/Documents/platform` (not inside Coder_OSS) |
 | Wave 0 | **Complete** | CR-001 through CR-008 verified |
 
 ## Module and Repository
 
 Go module path and GitHub remote are aligned:
 
-- Module: `github.com/swami086/platform`
+- Disk: `/Users/swami/Documents/platform`
 - Remote: https://github.com/swami086/platform
+
+See [08-filesystem-separation.md](08-filesystem-separation.md).
 
 ## Wave 0 Exit Criteria (Gate G1)
 
@@ -27,7 +30,7 @@ Go module path and GitHub remote are aligned:
 | `make lint` (golangci-lint v1.64.8) | PASS |
 | Stub server `/healthz` | PASS |
 | Swagger baseline (268 paths) | PASS |
-| Torbit index cleanroom-platform | PASS |
+| Torbit index `/Users/swami/Documents/platform` | PASS |
 | Dissimilarity scaffold | PASS |
 
 ## Next Action

@@ -26,15 +26,16 @@ import json, subprocess, sys
 from pathlib import Path
 
 mapping_path, threshold, py = sys.argv[1], sys.argv[2], sys.argv[3]
-root = Path(mapping_path).resolve().parent.parent
 with open(mapping_path) as f:
     data = json.load(f)
 
+root = Path(data.get("platform_root", Path(mapping_path).resolve().parent.parent))
 source_root = Path(data["source_repo"])
+target_root = root / data.get("target_root", "src/")
 exit_code = 0
 for entry in data["mappings"]:
     src_dir = source_root / entry["source"]
-    tgt_dir = root / data.get("target_root", "src/") / entry["target"]
+    tgt_dir = target_root / entry["target"]
     if not src_dir.exists() or not tgt_dir.exists():
         continue
     proc = subprocess.run(

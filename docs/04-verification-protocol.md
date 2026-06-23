@@ -52,7 +52,7 @@ Store in ticket notes:
 ### 1. Re-index cleanroom tree
 
 ```
-index(path="/Users/swami/Documents/Coder_OSS/cleanroom-platform/src")
+index(path="/Users/swami/Documents/platform")
 ```
 
 ### 2. Verify target files exist
@@ -91,14 +91,14 @@ Expect IMPORTS and DEFINES to grow monotonically per wave.
 ### Go packages
 
 ```bash
-cd cleanroom-platform/src
+cd /Users/swami/Documents/platform/src
 make test RUN=TestPatternForPackage
 ```
 
 ### Frontend
 
 ```bash
-cd cleanroom-platform/src/console
+cd /Users/swami/Documents/platform/src/console
 pnpm test path/to/affected
 pnpm lint
 ```
@@ -118,10 +118,10 @@ make test RUN=TestIntegration
 ## Dissimilarity Check
 
 ```bash
-./cleanroom-platform/scripts/check-dissimilarity.sh \
+/Users/swami/Documents/platform/scripts/check-dissimilarity.sh \
   --source /Users/swami/Documents/Coder_OSS \
-  --target /Users/swami/Documents/Coder_OSS/cleanroom-platform/src \
-  --map-file cleanroom-platform/docs/path-mapping.json
+  --target /Users/swami/Documents/platform/src \
+  --map-file /Users/swami/Documents/platform/docs/path-mapping.json
 ```
 
 ## Failure Handling
